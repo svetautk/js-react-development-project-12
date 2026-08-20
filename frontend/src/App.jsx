@@ -1,6 +1,7 @@
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router'
 import './NotFoundPage'
+import './LoginPage'
 
 function App() {
   return (
