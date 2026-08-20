@@ -1,4 +1,4 @@
-import { Button, Group, TextInput } from '@mantine/core'
+
 import { useForm } from '@mantine/form'
 
 function LoginPage() {
@@ -10,11 +10,11 @@ function LoginPage() {
     return (
         <form>
             <h1>Войти</h1>
-            <TextInput {...form.getInputProps('name')} placeholder="Ваш ник" />
-            <TextInput {...form.getInputProps('password')} mt="md" placeholder="Пароль" />
-            <Button type="submit" mt="md">
+            <input {...form.getInputProps('name')} placeholder="Ваш ник" />
+            <input {...form.getInputProps('password')} mt="md" placeholder="Пароль" />
+            <button type="submit" mt="md">
                 Войти
-            </Button>
+            </button>
         </form>
     )
 }
